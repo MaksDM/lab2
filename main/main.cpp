@@ -1,4 +1,4 @@
-#include <string>
+п»ї#include <string>
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -8,8 +8,8 @@ using namespace std;
 int main(){
 	setlocale(LC_ALL, "");
 	ifstream in("input.txt");
-	string word;//слово
-	stringstream ss;	//строковый поток
+	string word;//СЃР»РѕРІРѕ
+	stringstream ss;	//СЃС‚СЂРѕРєРѕРІС‹Р№ РїРѕС‚РѕРє
 
 	bool flag = false;
 	getline(in, word, '\0');
@@ -24,7 +24,7 @@ int main(){
 		}
 	}
 	cout << ss.str();
-	in.close();//закрываем файл										   
+	in.close();//Р·Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»										   
 	system("pause>>void");
 
 }
